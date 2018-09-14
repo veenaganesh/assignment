@@ -1,0 +1,354 @@
+<STYLE>
+*
+{
+    BOX-SIZING: border-box
+}
+H1
+{
+    TEXT-ALIGN: center;
+    MARGIN-BOTTOM: 35px
+}
+.title
+{
+    BORDER-BOTTOM: black 1px solid;
+    POSITION: absolute;
+    TEXT-ALIGN: center;
+    BORDER-LEFT: black 1px solid;
+    PADDING-BOTTOM: 10px;
+    MARGIN-TOP: 0px;
+    PADDING-LEFT: 0px;
+    WIDTH: 150px;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: black 1px solid;
+    RIGHT: 0px;
+    FONT-WEIGHT: bold;
+    BORDER-RIGHT: black 1px solid;
+    PADDING-TOP: 10px
+}
+.description
+{
+    PADDING-BOTTOM: 5px;
+    PADDING-LEFT: 10px;
+    PADDING-RIGHT: 10px;
+    PADDING-TOP: 45px
+}
+#chicken
+{
+    BACKGROUND-COLOR: #ffb3b3
+}
+#beef
+{
+    BACKGROUND-COLOR: red;
+    COLOR: white
+}
+#sushi
+{
+    BACKGROUND-COLOR: #ffff99
+}
+.row
+{
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 10px;
+    WIDTH: 100%;
+    PADDING-RIGHT: 10px;
+    PADDING-TOP: 0px
+}
+DIV.section
+{
+    BORDER-BOTTOM: black 1px solid;
+    POSITION: relative;
+    BORDER-LEFT: black 1px solid;
+    MARGIN: 10px;
+    BACKGROUND: gray;
+    BORDER-TOP: black 1px solid;
+    BORDER-RIGHT: black 1px solid
+}
+.col-lg-1
+{
+    FLOAT: left
+}
+.col-lg-2
+{
+    FLOAT: left
+}
+.col-lg-3
+{
+    FLOAT: left
+}
+.col-lg-4
+{
+    FLOAT: left
+}
+.col-lg-5
+{
+    FLOAT: left
+}
+.col-lg-6
+{
+    FLOAT: left
+}
+.col-lg-7
+{
+    FLOAT: left
+}
+.col-lg-8
+{
+    FLOAT: left
+}
+.col-lg-9
+{
+    FLOAT: left
+}
+.col-lg-10
+{
+    FLOAT: left
+}
+.col-lg-11
+{
+    FLOAT: left
+}
+.col-lg-12
+{
+    FLOAT: left
+}
+.col-lg-1
+{
+    WIDTH: 8.33%
+}
+.col-lg-2
+{
+    WIDTH: 16.66%
+}
+.col-lg-3
+{
+    WIDTH: 25%
+}
+.col-lg-4
+{
+    WIDTH: 33%
+}
+.col-lg-5
+{
+    WIDTH: 41.66%
+}
+.col-lg-6
+{
+    WIDTH: 50%
+}
+.col-lg-7
+{
+    WIDTH: 58.33%
+}
+.col-lg-8
+{
+    WIDTH: 66.66%
+}
+.col-lg-9
+{
+    WIDTH: 74.99%
+}
+.col-lg-10
+{
+    WIDTH: 83.33%
+}
+.col-lg-11
+{
+    WIDTH: 91.66%
+}
+.col-lg-12
+{
+    WIDTH: 100%
+}
+.col-md-1
+{
+    FLOAT: left
+}
+.col-md-2
+{
+    FLOAT: left
+}
+.col-md-3
+{
+    FLOAT: left
+}
+.col-md-4
+{
+    FLOAT: left
+}
+.col-md-5
+{
+    FLOAT: left
+}
+.col-md-6
+{
+    FLOAT: left
+}
+.col-md-7
+{
+    FLOAT: left
+}
+.col-md-8
+{
+    FLOAT: left
+}
+.col-md-9
+{
+    FLOAT: left
+}
+.col-md-10
+{
+    FLOAT: left
+}
+.col-md-11
+{
+    FLOAT: left
+}
+.col-md-12
+{
+    FLOAT: left
+}
+.col-md-1
+{
+    WIDTH: 8.33%
+}
+.col-md-2
+{
+    WIDTH: 16.66%
+}
+.col-md-3
+{
+    WIDTH: 25%
+}
+.col-md-4
+{
+    WIDTH: 33%
+}
+.col-md-5
+{
+    WIDTH: 41.66%
+}
+.col-md-6
+{
+    WIDTH: 50%
+}
+.col-md-7
+{
+    WIDTH: 58.33%
+}
+.col-md-8
+{
+    WIDTH: 66.66%
+}
+.col-md-9
+{
+    WIDTH: 74.99%
+}
+.col-md-10
+{
+    WIDTH: 83.33%
+}
+.col-md-11
+{
+    WIDTH: 91.66%
+}
+.col-md-12
+{
+    WIDTH: 100%
+}
+.col-sm-1
+{
+    FLOAT: left
+}
+.col-sm-2
+{
+    FLOAT: left
+}
+.col-sm-3
+{
+    FLOAT: left
+}
+.col-sm-4
+{
+    FLOAT: left
+}
+.col-sm-5
+{
+    FLOAT: left
+}
+.col-sm-6
+{
+    FLOAT: left
+}
+.col-sm-7
+{
+    FLOAT: left
+}
+.col-sm-8
+{
+    FLOAT: left
+}
+.col-sm-9
+{
+    FLOAT: left
+}
+.col-sm-10
+{
+    FLOAT: left
+}
+.col-sm-11
+{
+    FLOAT: left
+}
+.col-sm-12
+{
+    FLOAT: left
+}
+.col-sm-1
+{
+    WIDTH: 8.33%
+}
+.col-sm-2
+{
+    WIDTH: 16.66%
+}
+.col-sm-3
+{
+    WIDTH: 25%
+}
+.col-sm-4
+{
+    WIDTH: 33%
+}
+.col-sm-5
+{
+    WIDTH: 41.66%
+}
+.col-sm-6
+{
+    WIDTH: 50%
+}
+.col-sm-7
+{
+    WIDTH: 58.33%
+}
+.col-sm-8
+{
+    WIDTH: 66.66%
+}
+.col-sm-9
+{
+    WIDTH: 74.99%
+}
+.col-sm-10
+{
+    WIDTH: 83.33%
+}
+.col-sm-11
+{
+    WIDTH: 91.66%
+}
+.col-sm-12
+{
+    WIDTH: 100%
+}
+</STYLE>
